@@ -3,6 +3,9 @@ import "./Rentals.css";
 
 export const Rentals = () => {
   const [houseData, setHouseData] = useState([])
+  const [searchData,setSearchData]=useState([])
+  const [searchText, setSearchText] = useState("")
+  const [tempData,setTempData] = useState([])
   useEffect(() => {
     housesData();
    
@@ -14,9 +17,26 @@ export const Rentals = () => {
       const _data=await fetch("http://localhost:8080/houses");
        res=await _data.json();
       setHouseData(res)
+      setSearchData(res)
     }catch(e){
       console.warn(e.message);
     }
+  }
+
+  useEffect(()=>{
+    if(searchText==="") setHouseData(searchData)
+    else
+    setHouseData(()=>{
+      return searchData.filter((row)=>{
+        return row.address?.toLowerCase().includes(searchText.toLowerCase().trim())})
+    });
+  },[searchData, searchText])
+
+  // console.log(searchData)
+ 
+
+  function handleSearch(text) {
+    setSearchText(text);
   }
   
   return (
@@ -31,6 +51,7 @@ export const Rentals = () => {
       <input
         className="searchAddress"
         type="text"
+        onChange={({target})=>handleSearch(target.value)}
         placeholder="Search Address"
       />
       <table className="table" border="1">
