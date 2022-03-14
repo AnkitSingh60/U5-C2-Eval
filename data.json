@@ -1,0 +1,164 @@
+{
+"houses":[{
+    "id": 1,
+    "name": "Wendall",
+    "ownerName": "Wendall Rotchell",
+    "address": "78 Derek Parkway",
+    "areaCode": "565145",
+    "rent": 6474,
+    "preferredTenants": false
+  }, {
+    "id": 2,
+    "name": "Ashlen",
+    "ownerName": "Ashlen Binnell",
+    "address": "12118 Farmco Way",
+    "areaCode": "45250",
+    "rent": 8137,
+    "preferredTenants": true
+  }, {
+    "id": 3,
+    "name": "Aime",
+    "ownerName": "Aime Kelshaw",
+    "address": "6 Sutteridge Terrace",
+    "areaCode": "3606",
+    "rent": 8791,
+    "preferredTenants": true
+  }, {
+    "id": 4,
+    "name": "Delcina",
+    "ownerName": "Delcina Shurrocks",
+    "address": "824 Ruskin Way",
+    "areaCode": "46550",
+    "rent": 6332,
+    "preferredTenants": false
+  }, {
+    "id": 5,
+    "name": "Missie",
+    "ownerName": "Missie Dismore",
+    "address": "1540 Warbler Plaza",
+    "areaCode": "257 08",
+    "rent": 7632,
+    "preferredTenants": true
+  }, {
+    "id": 6,
+    "name": "Ciel",
+    "ownerName": "Ciel Corsor",
+    "address": "19 Del Sol Way",
+    "areaCode": "652240",
+    "rent": 6705,
+    "preferredTenants": true
+  }, {
+    "id": 7,
+    "name": "Saba",
+    "ownerName": "Saba Roakes",
+    "address": "8 Helena Parkway",
+    "areaCode": "412787",
+    "rent": 5907,
+    "preferredTenants": false
+  }, {
+    "id": 8,
+    "name": "Ryun",
+    "ownerName": "Ryun Fallen",
+    "address": "413 Hovde Park",
+    "areaCode": "98-273",
+    "rent": 9594,
+    "preferredTenants": true
+  }, {
+    "id": 9,
+    "name": "Edy",
+    "ownerName": "Edy Berthome",
+    "address": "130 Sommers Place",
+    "areaCode": "35699",
+    "rent": 6514,
+    "preferredTenants": true
+  }, {
+    "id": 10,
+    "name": "Belicia",
+    "ownerName": "Belicia Polleye",
+    "address": "92 Lien Circle",
+    "areaCode": "631 85",
+    "rent": 9289,
+    "preferredTenants": false
+  }, {
+    "id": 11,
+    "name": "Amabelle",
+    "ownerName": "Amabelle Checo",
+    "address": "49559 Tomscot Hill",
+    "areaCode": "348555",
+    "rent": 6490,
+    "preferredTenants": true
+  }, {
+    "id": 12,
+    "name": "Ives",
+    "ownerName": "Ives Oulner",
+    "address": "2958 Sutherland Center",
+    "areaCode": "507-0901",
+    "rent": 7490,
+    "preferredTenants": false
+  }, {
+    "id": 13,
+    "name": "Patrizius",
+    "ownerName": "Patrizius Sherlaw",
+    "address": "39593 Sunnyside Hill",
+    "areaCode": "854629",
+    "rent": 7173,
+    "preferredTenants": true
+  }, {
+    "id": 14,
+    "name": "Amerigo",
+    "ownerName": "Amerigo Weigh",
+    "address": "6249 Canary Circle",
+    "areaCode": "414599",
+    "rent": 9646,
+    "preferredTenants": true
+  }, {
+    "id": 15,
+    "name": "Yorgo",
+    "ownerName": "Yorgo Miranda",
+    "address": "17697 Fisk Place",
+    "areaCode": "4960-320",
+    "rent": 5653,
+    "preferredTenants": true
+  }, {
+    "id": 16,
+    "name": "Zachariah",
+    "ownerName": "Zachariah Morrowe",
+    "address": "6 Macpherson Road",
+    "areaCode": "14521",
+    "rent": 8552,
+    "preferredTenants": true
+  }, {
+    "id": 17,
+    "name": "Tobe",
+    "ownerName": "Tobe Peasgood",
+    "address": "301 Lerdahl Drive",
+    "areaCode": "5702",
+    "rent": 8124,
+    "preferredTenants": true
+  }, {
+    "id": 18,
+    "name": "Gwyn",
+    "ownerName": "Gwyn Joyes",
+    "address": "9441 Petterle Parkway",
+    "areaCode": "49250",
+    "rent": 9870,
+    "preferredTenants": false
+  }, {
+    "id": 19,
+    "name": "Kelly",
+    "ownerName": "Kelly McCallister",
+    "address": "473 Cherokee Road",
+    "areaCode": "495423",
+    "rent": 9707,
+    "preferredTenants": false
+  }, {
+    "id": 20,
+    "name": "Faye",
+    "ownerName": "Faye Gamet",
+    "address": "48284 Lotheville Park",
+    "areaCode": "353400",
+    "rent": 5080,
+    "preferredTenants": false
+  }]
+  
+}
