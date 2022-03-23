@@ -22,13 +22,19 @@ export const Rentals = () => {
       console.warn(e.message);
     }
   }
+  // const sortLow = () => {
+  //   houseData.sort((a, b) => {
+  //     return a.rent - b.rent;
+  //   });
+  //   setHouseData(houseData);
+  // }
 
   useEffect(()=>{
     if(searchText==="") setHouseData(searchData)
     else
     setHouseData(()=>{
       return searchData.filter((row)=>{
-        return row.address?.toLowerCase().includes(searchText.toLowerCase().trim())})
+        return (row.address?.toLowerCase().includes(searchText.toLowerCase().trim()) || row.name?.toLowerCase().includes(searchText.toLowerCase().trim()) )})
     });
   },[searchData, searchText])
 
@@ -43,7 +49,8 @@ export const Rentals = () => {
     <div className="rentalContainer">
       <div className="sortingButtons">
         <button className="sortById">Sort by ID</button>
-        <button className="sortByRentAsc">Rent Low to high</button>
+        <button className="sortByRentAsc" > Rent Low to high </button>    
+        {/* onClick={() => {sortLow()}} */}
         <button className="sortByRentDesc">Rent High to low</button>
         <button className="sortByAreaAsc">Area Low to high</button>
         <button className="sortByAreaDesc">Area High to Low</button>
